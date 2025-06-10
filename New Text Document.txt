@@ -1,0 +1,37 @@
+
+
+CY: Prsss.
+Description
+Cypress Runner is a Visual Studio Code extension that provides convenient commands for installing Cypress and running Cypress tests directly from the editor.
+
+Installation
+Launch Visual Studio Code.
+Open the Extensions view by clicking on the square icon in the sidebar or by pressing Ctrl+Shift+X.
+Search for "Cypress Runner" in the Extensions Marketplace.
+Click on the "Install" button.
+Once installed, the extension will be activated automatically.
+Features
+Install Cypress: Run npm init -y and npm i cypress --save-dev to install Cypress and set up the necessary configuration files (package.json).
+Run Cypress Tests (In UI): Open the Cypress Test Runner UI using npx cypress open.
+Run Cypress Tests (Headless): Execute Cypress tests in headless mode using npx cypress run.
+Usage
+Install Cypress
+Open a workspace or project folder where you want to install Cypress.
+Open the Command Palette (Ctrl+Shift+P) and search for "CY: Install Cypress".
+Select "CY: Install Cypress" from the list to execute the command.
+The VSCode terminal will open and run npm init -y and npm i cypress --save-dev to install Cypress.
+Run Cypress Tests (In UI)
+Open a workspace or project folder that contains Cypress tests.
+Open the Command Palette (Ctrl+Shift+P) and search for "CY: Run Cypress Tests in UI mode".
+Select "CY: Run Cypress Tests in UI mode" to execute the command.
+The VSCode terminal will open and run npx cypress open to launch the Cypress Test Runner UI.
+Run Cypress Tests (Headless)
+Open a workspace or project folder that contains Cypress tests.
+Open the Command Palette (Ctrl+Shift+P) and search for "CY: Run Cypress Tests in headless mode)".
+Select "CY: Run Cypress Tests in headless mode" to execute the command.
+The VSCode terminal will open and run npx cypress run to execute Cypress tests in headless mode.
+Contributing
+Contributions, bug reports, and feature requests are welcome! Please feel free to submit an issue or create a pull request on the GitHub repository.
+
+License
+This extension is released under the MIT License.
